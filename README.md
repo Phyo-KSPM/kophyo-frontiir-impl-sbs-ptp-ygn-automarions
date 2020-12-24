@@ -1,4 +1,4 @@
-# kophyo-frontiir-impl-sbs-ptp-ygn-automarions
+# kophyo-frontiir-impl-sbs-ptp-ygn-automations
 
 ! If you run the program !
 **************************
