@@ -1,0 +1,14 @@
+#!/bin/bash
+ts=`date +%Y%m%d%H%M`
+CSVFILE=./PINGRESULT_${ts}.csv
+# Program name: pingall.sh
+date
+cat /home/wanna.htay/ptpin |  while read output
+do
+    ping -c 1 "$output" > /dev/null
+    if [ $? -eq 0 ]; then
+    echo "$output is up" 
+    else
+    echo "$output is down"
+    fi
+done
