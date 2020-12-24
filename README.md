@@ -1,2 +1,6 @@
 # kophyo-frontiir-impl-sbs-ptp-ygn-automarions
-source kophyo
+
+! If you run the program !
+**************************
+>>> source automations
+>>> kophyo
